@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/ke/uri/api" methods="POST">
+        <label for="nama">Nama lengkap</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="kelas">Kelas</label><br>
+        <select id="kelas" name="kelas">
+            <option value="XII RPL 1">XII RPL 1</option>
+            <option value="XII RPL 2">XII RPL 2</option>
+            <option value="XII RPL 3">XII RPL 3</option>
+        </select><br><br>
+
+        <label>Jenis kelamin</label><br>
+        <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki">
+        <label for="laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+
+        <label for="ekstrakurikuler">Ekstrakurikuler</label><br>
+        <select id="ekstrakurikuler" name="ekstrakurikuler">
+            <option value="Web Programming">Web Programming</option>
+            <option value="Desain Grafis">Desain Grafis</option>
+            <option value="Robotika">Robotika</option>
+            <option value="Futsal">Futsal</option>
+        </select><br><br>
+
+        <label for="telepon">Nomor telepon</label><br>
+        <input type="tel" id="telepon" name="telepon"><br><br>
+
+        <label for="alasan">Alasan mengikuti ekstrakurikuler</label><br>
+        <textarea id="alasan" name="alasan" rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Daftar">
+        <input type="reset" value="Reset">
+    </form>
+
+    <br><br><br><br>
+
+    <h3>Daftar Peserta Ekstrakurikuler</h3>
+
+    <table border="1">
+        <tr>
+            <th>Nomor</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Jenis Kelamin</th>
+            <th>Ekstrakurikuler</th>
+            <th>Nomor Telepon</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Dimas Alexander</td>
+            <td>XII RPL 1</td>
+            <td>Laki-laki</td>
+            <td>Web Programming</td>
+            <td>081234567890</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Fhabil Hafiz</td>
+            <td>XII RPL 2</td>
+            <td>Perempuan</td>
+            <td>Desain Grafis</td>
+            <td>082345678901</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Gani Adrian</td>
+            <td>XII RPL 3</td>
+            <td>Laki-laki</td>
+            <td>Robotika</td>
+            <td>083456789012</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mahansa Putra</td>
+            <td>XII RPL 1</td>
+            <td>Perempuan</td>
+            <td>Futsal</td>
+            <td>084567890123</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Raisa Iffah</td>
+            <td>XII RPL 2</td>
+            <td>Laki-laki</td>
+            <td>Web Programming</td>
+            <td>085678901234</td>
+        </tr>
+    </table>
+</body>
+</html>
